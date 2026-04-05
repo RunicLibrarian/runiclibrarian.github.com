@@ -1,6 +1,6 @@
-archetypeName,slotCasting,str,dex,con,wis,int,cha,innate,spontaneous,prepared,metastrike,skillScaling,reaction,focusSpells,weaponFamiliarity
-Acrobat,FALSE,,TRUE,,,,,FALSE,FALSE,FALSE,,TRUE,,,
-Aldori Duelist,FALSE,TRUE,TRUE,,,,,FALSE,FALSE,FALSE,,,TRUE,,
-Bard,TRUE,,FALSE,,,,TRUE,,TRUE,,FALSE,,,,
-Champion,FALSE,TRUE,FALSE,,,,TRUE,,,,,,TRUE,TRUE,
-Mauler,FALSE,TRUE,FALSE,,,,,,,,TRUE,,,,TRUE
+archetypeName,url,slotCasting,strength,dexterity,constitution,wisdom,intelligence,charisma,innate,spontaneous,prepared,metastrike,skillScaling,reaction,focusSpells,weaponFamiliarity,alchemy
+Acrobat,https://2e.aonprd.com/Archetypes.aspx?ID=236,FALSE,,TRUE,,,,,FALSE,FALSE,FALSE,,TRUE,,,,
+Aldori Duelist,,FALSE,TRUE,TRUE,,,,,FALSE,FALSE,FALSE,,,TRUE,,,
+Bard,,TRUE,,FALSE,,,,TRUE,,TRUE,,FALSE,,,,,
+Champion,,FALSE,TRUE,FALSE,,,,TRUE,,,,,,TRUE,TRUE,,
+Mauler,,FALSE,TRUE,FALSE,,,,,,,,TRUE,,,,TRUE,

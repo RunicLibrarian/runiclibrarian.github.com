@@ -21,25 +21,24 @@ import {
 } from '@mui/material'
 import { Brightness4, Brightness7 } from '@mui/icons-material'
 
-// Custom color palette - easy to edit
 const customColors = {
-    primary: '#1976d2',      // Blue
-    secondary: '#dc004e',    // Pink
-    error: '#d32f2f',        // Red
-    background: '#ffffff',   // White
-    surface: '#f5f5f5',      // Light gray
-    textPrimary: '#000000',  // Black
-    textSecondary: '#666666', // Gray
+    primary: '#1976d2', // clear filters button and negative skill
+    secondary: '#dc004e', // nothing?
+    error: '#d32f2f', // positive skill
+    background: '#ffffff', // background and skill background
+    surface: '#f5f5f5', // header and card background
+    textPrimary: '#000000', // primary text
+    textSecondary: '#666666', // help text above skills
 }
 
 const customDarkColors = {
-    primary: '#90caf9',      // Light blue
-    secondary: '#f48fb1',    // Light pink
-    error: '#f87171',        // Light red
-    background: '#121212',   // Dark gray
-    surface: '#1e1e1e',      // Darker gray
-    textPrimary: '#ffffff',  // White
-    textSecondary: '#cccccc', // Light gray
+    primary: '#90caf9', // clear filters button and negative skill
+    secondary: '#f48fb1', // nothing?
+    error: '#f87171', //positive skill
+    background: '#121212', // background and skill background
+    surface: '#1e1e1e', // header and card background
+    textPrimary: '#ffffff', // primary text
+    textSecondary: '#cccccc', // help text above skills
 }
 
 const theme = createTheme({

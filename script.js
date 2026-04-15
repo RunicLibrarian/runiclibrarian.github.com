@@ -2,6 +2,8 @@
 let dataJson = []; // Array to hold parsed CSV data as objects
 let dataHeaders = []; // Array to store CSV column headers
 let checkboxValues = {}; // Object to track which skill filters are active
+let dataDescriptions = [];
+let selectedLevel = "any";
 
 /**
  * Converts camelCase strings to Title Case (e.g., "weaponFamiliarity" -> "Weapon Familiarity")
@@ -38,10 +40,13 @@ async function csvJSON() {
 
     const result = [];
     const headers = lines[0].split(",");
+    const descriptions = lines[1].split(",");
+
     dataHeaders = headers;
+    dataDescriptions = descriptions;
 
     // Parse each data row into objects
-    for (let i = 1; i < lines.length; i++) {
+    for (let i = 2; i < lines.length; i++) {
         const obj = {};
         const currentline = lines[i].split(",");
 
@@ -111,7 +116,29 @@ function updateCheckboxValues(field, value) {
     checkboxValues[field] = value;
     updateFilteredData(); // Re-filter and update display
 }
+const controlsContainer = document.querySelector('#skillCheckboxes');
 
+// Create dropdown
+const levelSelect = document.createElement('select');
+levelSelect.id = "levelFilter";
+
+// Add options
+const levels = ["any", "2", "4", "8", "10", "12"];
+levels.forEach(level => {
+    const option = document.createElement('option');
+    option.value = level;
+    option.textContent = level === "any" ? "This level or lower" : `Level ${level}`;
+    levelSelect.appendChild(option);
+});
+
+// Handle change
+levelSelect.addEventListener('change', (e) => {
+    selectedLevel = e.target.value;
+    updateFilteredData();
+});
+
+// Add to DOM (you can reposition this if you want it above checkboxes)
+controlsContainer.prepend(levelSelect);
 /**
  * Filters the data based on active checkbox filters and updates the display
  * Three-state filtering:
@@ -121,6 +148,16 @@ function updateCheckboxValues(field, value) {
  */
 function updateFilteredData() {
     let newDataJson = dataJson.filter((obj) => {
+
+    // ✅ LEVEL FILTER
+    if (selectedLevel !== "any") {
+    const itemLevel = Number(obj.level);
+    const filterLevel = Number(selectedLevel);
+
+    if (isNaN(itemLevel) || itemLevel > filterLevel) {
+        return false;
+    }
+}
         // Check if item passes all active filters
         for (let key of Object.keys(checkboxValues)) {
             if (key === 'archetypeName' || key === 'url') continue; // Skip archetype name and url columns
@@ -160,7 +197,7 @@ async function initData() {
     const skillCheckboxes = document.querySelector('#skillCheckboxes');
 
     // Extract skill headers (skip the first two columns: archetypeName and url)
-    const skillHeaders = dataHeaders.splice(1).filter(header => header !== 'url');
+    const skillHeaders = dataHeaders.slice(1).filter(header => header !== 'url');
 
     // Create checkbox and label for each skill
     for (let i = 0; i <= skillHeaders.length - 1; i++) {
@@ -198,10 +235,15 @@ async function initData() {
             updateFilteredData();
         })
 
-        // Create visible label for the checkbox
         const label = document.createElement('label');
         label.htmlFor = skillHeaders[i];
         label.appendChild(document.createTextNode(camelToTitle(skillHeaders[i])));
+
+        // Get the correct description (match index in original headers)
+        const headerIndex = dataHeaders.indexOf(skillHeaders[i]);
+        if (headerIndex !== -1) {
+            label.title = dataDescriptions[headerIndex]; // Tooltip on hover
+        }
 
         // Add to the DOM
         skillCheckboxes.appendChild(checkbox);
@@ -209,6 +251,7 @@ async function initData() {
 
         // Initialize filter state to neutral
         checkboxValues[skillHeaders[i]] = null;
+        
     }
 
     updateFilteredData(); // Display initial data

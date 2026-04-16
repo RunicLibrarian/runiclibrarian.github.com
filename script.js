@@ -13,7 +13,43 @@ let selectedLevel = "any";
 function camelToTitle(camel) {
     return camel.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase());
 }
+function updateURLFromFilters() {
+    const params = new URLSearchParams();
 
+    // Level
+    if (selectedLevel !== "any") {
+        params.set("level", selectedLevel);
+    }
+
+    // Checkbox filters
+    for (let key in checkboxValues) {
+        if (checkboxValues[key] === true) {
+            params.set(key, "1");
+        } else if (checkboxValues[key] === false) {
+            params.set(key, "0");
+        }
+    }
+
+    const newUrl = `${window.location.pathname}?${params.toString()}`;
+    window.history.replaceState({}, "", newUrl);
+}
+function loadFiltersFromURL() {
+    const params = new URLSearchParams(window.location.search);
+
+    // Level
+    if (params.has("level")) {
+        selectedLevel = params.get("level");
+    }
+
+    // Skills
+    for (let key in checkboxValues) {
+        if (params.has(key)) {
+            const val = params.get(key);
+            if (val === "1") checkboxValues[key] = true;
+            else if (val === "0") checkboxValues[key] = false;
+        }
+    }
+}
 /**
  * Fetches and parses CSV data from data.csv file
  * Converts CSV format to JSON objects with proper data types
@@ -149,137 +185,87 @@ controlsContainer.prepend(levelSelect);
 function updateFilteredData() {
     let newDataJson = dataJson.filter((obj) => {
 
-    // ✅ LEVEL FILTER
-    if (selectedLevel !== "any") {
-    const itemLevel = Number(obj.level);
-    const filterLevel = Number(selectedLevel);
+        if (selectedLevel !== "any") {
+            const itemLevel = Number(obj.level);
+            const filterLevel = Number(selectedLevel);
 
-    if (isNaN(itemLevel) || itemLevel > filterLevel) {
-        return false;
-    }
-}
-        // Check if item passes all active filters
+            if (isNaN(itemLevel) || itemLevel > filterLevel) {
+                return false;
+            }
+        }
+
         for (let key of Object.keys(checkboxValues)) {
-            if (key === 'archetypeName' || key === 'url') continue; // Skip archetype name and url columns
+            if (key === 'archetypeName' || key === 'url') continue;
 
             const filterState = checkboxValues[key];
 
-            // Neutral state - ignore this filter
-            if (filterState === null) {
-                continue;
-            }
+            if (filterState === null) continue;
 
-            // Positive filter - item must have this skill to be shown
-            if (filterState === true) {
-                if (obj[key] !== true) {
-                    return false; // Item doesn't have this skill, exclude it
-                }
-            }
-            // Negative filter - item must NOT have this skill to be shown
-            else if (filterState === false) {
-                if (obj[key] === true) {
-                    return false; // Item has this skill, exclude it
-                }
-            }
+            if (filterState === true && obj[key] !== true) return false;
+            if (filterState === false && obj[key] === true) return false;
         }
-        return true; // Item passed all filters
-    });
-    updateDataHTML(newDataJson); // Update the HTML with filtered results
-}
 
-/**
- * Initializes the application by loading data and creating UI elements
- * Sets up skill filter checkboxes and displays initial data
- */
+        return true;
+    });
+
+    updateDataHTML(newDataJson);
+    updateURLFromFilters();
+}
 async function initData() {
-    dataJson = await csvJSON(); // Load and parse CSV data
+    dataJson = await csvJSON();
 
     const skillCheckboxes = document.querySelector('#skillCheckboxes');
 
-    // Extract skill headers (skip the first two columns: archetypeName and url)
-    const skillHeaders = dataHeaders.slice(1).filter(header => header !== 'url');
+    if (!skillCheckboxes) {
+        console.error("Missing #skillCheckboxes in HTML");
+        return;
+    }
 
-    // Create checkbox and label for each skill
-    for (let i = 0; i <= skillHeaders.length - 2; i++) {
-        // Create hidden checkbox input
+    const skillHeaders = dataHeaders.slice(1).filter(h => h !== 'url');
+
+    skillHeaders.forEach((skill) => {
+        checkboxValues[skill] = null;
+
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
-        checkbox.id = skillHeaders[i];
-        checkbox.checked = false; // Start unchecked (neutral state)
-
-        // Click handler to cycle through three states: null -> true -> false -> null
-        checkbox.addEventListener('click', (event) => {
-            event.preventDefault(); // Prevent default checkbox toggle
-
-            // Cycle through states
-            let currentState = checkboxValues[skillHeaders[i]];
-            let nextState;
-
-            if (currentState === null) {
-                nextState = true; // null -> true (positive filter)
-            } else if (currentState === true) {
-                nextState = false; // true -> false (negative filter)
-            } else {
-                nextState = null; // false -> null (neutral)
-            }
-
-            checkboxValues[skillHeaders[i]] = nextState;
-
-            // Update visual state
-            if (nextState === null) {
-                label.removeAttribute('data-state');
-            } else {
-                label.setAttribute('data-state', nextState);
-            }
-
-            updateFilteredData();
-        })
+        checkbox.id = skill;
 
         const label = document.createElement('label');
-        label.htmlFor = skillHeaders[i];
-        label.appendChild(document.createTextNode(camelToTitle(skillHeaders[i])));
+        label.htmlFor = skill;
+        label.textContent = camelToTitle(skill);
 
-        // Get the correct description (match index in original headers)
-        const headerIndex = dataHeaders.indexOf(skillHeaders[i]);
+        const headerIndex = dataHeaders.indexOf(skill);
         if (headerIndex !== -1) {
-            label.title = dataDescriptions[headerIndex]; // Tooltip on hover
+            label.title = dataDescriptions[headerIndex];
         }
 
-        // Add to the DOM
+        checkbox.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            let current = checkboxValues[skill];
+
+            if (current === null) checkboxValues[skill] = true;
+            else if (current === true) checkboxValues[skill] = false;
+            else checkboxValues[skill] = null;
+
+            const state = checkboxValues[skill];
+
+            if (state === null) label.removeAttribute('data-state');
+            else label.setAttribute('data-state', state);
+
+            updateFilteredData();
+        });
+
         skillCheckboxes.appendChild(checkbox);
         skillCheckboxes.appendChild(label);
-
-        // Initialize filter state to neutral
-        checkboxValues[skillHeaders[i]] = null;
-        
-    }
-
-    updateFilteredData(); // Display initial data
-}
-
-// Event listener for theme toggle button
-document.getElementById('theme-toggle').addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode'); // Toggle dark mode class
-    const button = document.getElementById('theme-toggle');
-    // Update button text based on current mode
-    if (document.body.classList.contains('dark-mode')) {
-        button.innerHTML = `<span class="material-symbols-outlined"> light_mode </span>`
-    } else {
-        button.innerHTML = `<span class="material-symbols-outlined"> dark_mode </span>`;
-    }
-});
-
-// Event listener for clear all button
-document.getElementById('clear-all').addEventListener('click', () => {
-    // Reset all skill filter checkboxes to neutral state
-    const checkboxes = document.querySelectorAll('#skillCheckboxes input[type="checkbox"]');
-    checkboxes.forEach((checkbox) => {
-        const label = checkbox.nextElementSibling;
-        label.removeAttribute('data-state');
-        checkboxValues[checkbox.id] = null; // Set to neutral
     });
-    updateFilteredData(); // Refresh display with no filters
-});
 
-// Start the application
+    loadFiltersFromURL();
+
+    // sync dropdown
+    const levelEl = document.getElementById("levelFilter");
+    if (levelEl) levelEl.value = selectedLevel;
+
+    updateFilteredData();
+}
 initData();

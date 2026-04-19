@@ -182,7 +182,7 @@ const levelSelect = document.createElement('select');
 levelSelect.id = "levelFilter";
 
 // Add options
-const levels = ["any", "2", "4", "8", "10", "12"];
+const levels = ["any", "2", "4", "6", "8", "10", "12"];
 levels.forEach(level => {
     const option = document.createElement('option');
     option.value = level;

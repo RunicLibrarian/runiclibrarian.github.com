@@ -344,7 +344,7 @@ function displayRSS(items) {
   const container = document.getElementById("rss-feed");
   container.innerHTML = ""; // clear existing
 
-  items.slice(0, 8).forEach(item => { // only first 8 items
+  items.slice(0, 10).forEach(item => { // only first 8 items
     const card = document.createElement("div");
     card.className = "rss-card";
 

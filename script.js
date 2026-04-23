@@ -244,7 +244,7 @@ async function initData() {
         return;
     }
 
-    const skillHeaders = dataHeaders.slice(1).filter(h => h !== 'url');
+    const skillHeaders = dataHeaders.slice(1).filter(h => h !== 'url' && h !== 'level');
 
     skillHeaders.forEach((skill) => {
         checkboxValues[skill] = null;
@@ -344,7 +344,7 @@ function displayRSS(items) {
   const container = document.getElementById("rss-feed");
   container.innerHTML = ""; // clear existing
 
-  items.slice(0, 10).forEach(item => { // only first 8 items
+  items.slice(0, 10).forEach(item => { // only first 10 items
     const card = document.createElement("div");
     card.className = "rss-card";
 

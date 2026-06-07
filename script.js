@@ -155,13 +155,27 @@ function updateDataHTML(data) {
 
         // Add skill boxes for skills that are true/active
         for (let key in item) {
-            if (key !== 'archetypeName' && key !== 'url' && item[key] === true) {
+            if (key !== 'archetypeName' && key !== 'url' && key !== 'notes' && key !== 'healingLink' && item[key] === true) {
                 const skillDiv = document.createElement('div');
                 skillDiv.classList.add('skill-box');
-                skillDiv.textContent = camelToTitle(key); // Convert camelCase to readable format
+
+                if (key === 'infiniteHealing' && item.healingLink && item.healingLink !== false) {
+                    skillDiv.innerHTML = `<a href="${item.healingLink}" target="_blank">${camelToTitle(key)}</a>`;
+                } else {
+                    skillDiv.textContent = camelToTitle(key); // Convert camelCase to readable format
+                }
+
                 newDiv.appendChild(skillDiv);
             }
         }
+
+        if (item.notes && item.notes !== false) {
+            const notesP = document.createElement('p');
+            notesP.classList.add('card-notes');
+            notesP.textContent = item.notes;
+            newDiv.appendChild(notesP);
+        }
+
         mainElem.appendChild(newDiv);
     })
 }
@@ -244,7 +258,7 @@ async function initData() {
         return;
     }
 
-    const skillHeaders = dataHeaders.slice(1).filter(h => h !== 'url' && h !== 'level');
+    const skillHeaders = dataHeaders.slice(1).filter(h => h !== 'url' && h !== 'level' && h !== 'notes' && h !== 'healingLink');
 
     skillHeaders.forEach((skill) => {
         checkboxValues[skill] = null;

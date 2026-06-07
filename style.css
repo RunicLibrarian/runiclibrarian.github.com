@@ -22,6 +22,10 @@ header h1 {
     color: var(--text-color);
     letter-spacing: 2px;
 }
+a {
+    color: #6A5ACD;
+}
+
 
 main {
     padding: 20px;
@@ -256,6 +260,17 @@ body.dark-mode {
     padding: 15px;
     box-shadow: 0 2px 5px var(--card-shadow);
     box-sizing: border-box;
+}
+
+.card .skill-box a,
+.card p.card-notes a {
+    color: #6A5ACD;
+}
+
+
+.card .skill-box a:hover,
+.card p.card-notes a:hover {
+    text-decoration: underline;
 }
 
 #main div p {

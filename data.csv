@@ -20,10 +20,10 @@ Bard,https://2e.aonprd.com/Archetypes.aspx?ID=211,,TRUE,,,,FALSE,,,,TRUE,,TRUE,,
 Bastion,https://2e.aonprd.com/Archetypes.aspx?ID=240,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,,,TRUE,,,,2
 Beast Gunner,https://2e.aonprd.com/Archetypes.aspx?ID=116,,FALSE,TRUE,,,TRUE,,,TRUE,TRUE,,,TRUE,,,,,,,,,,,TRUE,TRUE,,,,,,,TRUE,,,,,,,,,,TRUE,,,,,6
 Beast Lord,https://2e.aonprd.com/MythicDestinies.aspx?ID=290,,FALSE,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,TRUE,TRUE,,,TRUE,,,,TRUE,,,,,,,,,,TRUE,,,,12
-Beastmaster,https://2e.aonprd.com/Archetypes.aspx?ID=241,,TRUE,,,,,,TRUE,,,,,,,,,,,TRUE,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=1902,,,,TRUE,,,,,,TRUE,,,,,,,,,,,,,,,2
+Beastmaster,https://2e.aonprd.com/Archetypes.aspx?ID=241,Heals its animal companion,TRUE,,,,,,TRUE,,,,,,,,,,,TRUE,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=1902,,,,TRUE,,,,,,TRUE,,,,,,,,,,,,,,,2
 Bellflower Tiller,https://2e.aonprd.com/Archetypes.aspx?ID=23,,FALSE,TRUE,,,,,,,,,,,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6
 Blackjacket,https://2e.aonprd.com/Archetypes.aspx?ID=316,,FALSE,TRUE,,,,,,,TRUE,,,,,,,TRUE,,,,,,,,TRUE,,,,,,,,TRUE,TRUE,,,TRUE,,,,,,,,,,2
-Blessed One,https://2e.aonprd.com/Archetypes.aspx?ID=242,,TRUE,,,,,,,,TRUE,,,,,,TRUE,,,TRUE,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=6277,,,,,,,,,,,TRUE,,,,,,,,TRUE,,,,,,2
+Blessed One,https://2e.aonprd.com/Archetypes.aspx?ID=242,Good condition removal on a focus heal via mercy,TRUE,,,,,,,,TRUE,,,,,,TRUE,,,TRUE,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=6277,,,,,,,,,,,TRUE,,,,,,,,TRUE,,,,,,2
 Bounty Hunter,https://2e.aonprd.com/Archetypes.aspx?ID=243,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,,,,,,,2
 Bright Lion,https://2e.aonprd.com/Archetypes.aspx?ID=129,,FALSE,TRUE,,,,,,,TRUE,,,,,,TRUE,,TRUE,TRUE,,,,TRUE,,,,,,,,,,,,,,TRUE,,,,,,,,,TRUE,2
 Broken Chain,https://2e.aonprd.com/MythicDestinies.aspx?ID=291,,FALSE,TRUE,,TRUE,TRUE,,,,TRUE,,,,,,TRUE,,,TRUE,,,,TRUE,,TRUE,,,,TRUE,TRUE,,,TRUE,,,,,,,,,,,,,,12
@@ -60,7 +60,7 @@ Edgewatch Detective,https://2e.aonprd.com/Archetypes.aspx?ID=85,,FALSE,TRUE,,,,,
 Eldritch Archer,https://2e.aonprd.com/Archetypes.aspx?ID=249,,TRUE,,,,TRUE,,,,TRUE,,,,,,,,,,,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,TRUE,,,,,2
 Eldritch Researcher,https://2e.aonprd.com/Archetypes.aspx?ID=89,,FALSE,TRUE,,,,,,TRUE,,,,,,,,,,TRUE,,,,TRUE,,,,,,,TRUE,,,,,TRUE,,TRUE,,,,,,,,,,2
 Eternal Legend,https://2e.aonprd.com/MythicDestinies.aspx?ID=292,,FALSE,TRUE,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,TRUE,,,,TRUE,,,,TRUE,,TRUE,,,,,,,,,,,,12
-Exemplar,https://2e.aonprd.com/Archetypes.aspx?ID=281,,FALSE,FALSE,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,TRUE,https://2e.aonprd.com/Ikons.aspx?ID=13,,,,,,TRUE,,,,,TRUE,TRUE,,,,,,,,,,,,,2
+Exemplar,https://2e.aonprd.com/Archetypes.aspx?ID=281,"Self healing only, but Victor's Wreath has some condition removal.",FALSE,FALSE,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,TRUE,https://2e.aonprd.com/Ikons.aspx?ID=13,,,,,,TRUE,,,,,TRUE,TRUE,,,,,,,,,,,,,2
 Exorcist,https://2e.aonprd.com/Archetypes.aspx?ID=171,,TRUE,,,,,,,,,,,,,,,TRUE,,,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=3456,,,,,,,,,,,TRUE,,,,,,,TRUE,,,,,,,4
 Familiar Master,https://2e.aonprd.com/Archetypes.aspx?ID=250,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,,,,,,,TRUE,,,,,,2
 Familiar Sage,https://2e.aonprd.com/Archetypes.aspx?ID=279,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,TRUE,,,,,,,,TRUE,,,,,,4
@@ -77,7 +77,7 @@ Geomancer,https://2e.aonprd.com/Archetypes.aspx?ID=100,,TRUE,,,,,,,,,,,,,,,,,,,,
 Ghost,https://2e.aonprd.com/Archetypes.aspx?ID=177,,FALSE,FALSE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,,,TRUE,,2
 Ghost Eater,https://2e.aonprd.com/Archetypes.aspx?ID=92,,FALSE,TRUE,,TRUE,TRUE,,,,,,,,,,,,,,,,,TRUE,,,,,,,TRUE,,,,,,,,,,,,,,,,,2
 Ghost Hunter,https://2e.aonprd.com/Archetypes.aspx?ID=88,,FALSE,TRUE,,,,,,,TRUE,,,,,,,TRUE,,,,,,TRUE,,,,,,,TRUE,,,,,,,,,,,,,,,,,2
-Ghoul,https://2e.aonprd.com/Archetypes.aspx?ID=178,,FALSE,FALSE,TRUE,,,,,,,,,,,,,,,,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=3505,,,TRUE,,,,,,,,TRUE,,,,,,,TRUE,,,,TRUE,TRUE,,2
+Ghoul,https://2e.aonprd.com/Archetypes.aspx?ID=178,Self healing only,FALSE,FALSE,TRUE,,,,,,,,,,,,,,,,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=3505,,,TRUE,,,,,,,,TRUE,,,,,,,TRUE,,,,TRUE,TRUE,,2
 Gladiator,https://2e.aonprd.com/Archetypes.aspx?ID=251,,TRUE,,,,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,TRUE,,TRUE,TRUE,,,,,,,TRUE,2
 Godling,https://2e.aonprd.com/MythicDestinies.aspx?ID=293,,FALSE,FALSE,TRUE,,,,TRUE,,TRUE,,,,,,TRUE,,,TRUE,,,,TRUE,,,,,,TRUE,,,,,,TRUE,,,,,,,,,,,TRUE,12
 Golden League Xun,https://2e.aonprd.com/Archetypes.aspx?ID=93,,FALSE,TRUE,,TRUE,TRUE,,,,TRUE,,,,,,,,TRUE,,,,,,,,,,,,,,,TRUE,,,,TRUE,,,,,,,,,,8
@@ -123,7 +123,7 @@ Martial Artist,https://2e.aonprd.com/Archetypes.aspx?ID=255,,TRUE,,,TRUE,TRUE,,,
 Mauler,https://2e.aonprd.com/Archetypes.aspx?ID=256,,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,TRUE,,,,,,,,,,,,,TRUE,2
 Medic,https://2e.aonprd.com/Archetypes.aspx?ID=257,,TRUE,,,,,,TRUE,,,,,,,,,,,,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=5137,,,,,,,,,,,,,,TRUE,TRUE,,TRUE,,,,,,,,2
 Mind Smith,https://2e.aonprd.com/Archetypes.aspx?ID=351,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,TRUE,,,,,,,,2
-Monk,https://2e.aonprd.com/Archetypes.aspx?ID=232,,TRUE,,,TRUE,TRUE,,TRUE,,,,,,,,TRUE,,,TRUE,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=5995,,,TRUE,,,TRUE,,TRUE,,,TRUE,,,,,,,,,,TRUE,TRUE,,TRUE,2
+Monk,https://2e.aonprd.com/Archetypes.aspx?ID=232,Self healing only,TRUE,,,TRUE,TRUE,,TRUE,,,,,,,,TRUE,,,TRUE,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=5995,,,TRUE,,,TRUE,,TRUE,,,TRUE,,,,,,,,,,TRUE,TRUE,,TRUE,2
 Mortal Herald,https://2e.aonprd.com/Archetypes.aspx?ID=305,,FALSE,FALSE,TRUE,,,,TRUE,,,,,,,,TRUE,,,TRUE,,,,TRUE,,,,,,TRUE,,,,TRUE,,TRUE,,,,TRUE,,,,TRUE,,,,12
 Mummy,https://2e.aonprd.com/Archetypes.aspx?ID=180,,FALSE,FALSE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,,,,TRUE,TRUE,,2
 Nantambu Chime-Ringer,https://2e.aonprd.com/Archetypes.aspx?ID=106,,FALSE,TRUE,,,,,,TRUE,TRUE,,,TRUE,,,,,,,,,,TRUE,,,,,,,TRUE,,,,,,,TRUE,,,,,,,,,,2
@@ -209,7 +209,7 @@ Undead Slayer,https://2e.aonprd.com/Archetypes.aspx?ID=174,,TRUE,,,TRUE,TRUE,,TR
 Undersea Privateer,https://2e.aonprd.com/Archetypes.aspx?ID=379,,FALSE,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,,TRUE,,TRUE,,,,TRUE,TRUE,,,2
 Unexpected Sharpshooter,https://2e.aonprd.com/Archetypes.aspx?ID=123,,FALSE,TRUE,,,TRUE,,,,TRUE,,,,,,,,,,,,,,,TRUE,,,,,,,,TRUE,,,,,,,,,,,,,,2
 Ursine Avenger Hood,https://2e.aonprd.com/Archetypes.aspx?ID=200,,FALSE,,TRUE,TRUE,,,,,TRUE,,,,,TRUE,,,,,,,,TRUE,,TRUE,,,,,,,,,,,,,,,TRUE,,,,TRUE,,,2
-Vampire,https://2e.aonprd.com/Archetypes.aspx?ID=181,,FALSE,FALSE,TRUE,TRUE,,,,,TRUE,,,,,,TRUE,,,,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=3554,TRUE,,,,,,,,,,,,,,,,,,,,,TRUE,TRUE,,2
+Vampire,https://2e.aonprd.com/Archetypes.aspx?ID=181,Self healing only,FALSE,FALSE,TRUE,TRUE,,,,,TRUE,,,,,,TRUE,,,,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=3554,TRUE,,,,,,,,,,,,,,,,,,,,,TRUE,TRUE,,2
 Vehicle Mechanic,https://2e.aonprd.com/Archetypes.aspx?ID=113,,FALSE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE,TRUE,,TRUE,,,,,,,,2
 Venture-Gossip,https://2e.aonprd.com/Archetypes.aspx?ID=311,,TRUE,,,,,,,TRUE,TRUE,,TRUE,,,,,,TRUE,,,,,,,,,,,,,,,TRUE,,,,,,TRUE,,,,,,,,4
 Verduran Shadow,https://2e.aonprd.com/Archetypes.aspx?ID=312,,FALSE,TRUE,,,,,TRUE,,,,,,,,,,,,,,,,,TRUE,,,,,,,,TRUE,,,TRUE,TRUE,,,,,,,,,,2
@@ -218,7 +218,7 @@ Viking,https://2e.aonprd.com/Archetypes.aspx?ID=268,,TRUE,,,TRUE,TRUE,,,,,,,,,,,
 Wandering Chef,https://2e.aonprd.com/Archetypes.aspx?ID=277,,TRUE,,,,,,,,,TRUE,,,,,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,2
 Warshard Warrior,https://2e.aonprd.com/MythicDestinies.aspx?ID=341,,FALSE,FALSE,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,,,,,TRUE,,,,TRUE,,,,TRUE,,,,,,,,,,,,,,12
 Weapon Improviser,https://2e.aonprd.com/Archetypes.aspx?ID=269,,TRUE,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,TRUE,,,,,,,,,,,,,,2
-Werecreature,https://2e.aonprd.com/Archetypes.aspx?ID=225,,FALSE,FALSE,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=5514,,,,,,,,,,,TRUE,,TRUE,,,,,TRUE,,,,TRUE,,,2
+Werecreature,https://2e.aonprd.com/Archetypes.aspx?ID=225,Self healing only,FALSE,FALSE,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=5514,,,,,,,,,,,TRUE,,TRUE,,,,,TRUE,,,,TRUE,,,2
 Wild Mimic,https://2e.aonprd.com/Archetypes.aspx?ID=226,,TRUE,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,TRUE,,,,,,,,,,TRUE,TRUE,,,2
 Wildspell,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,,,TRUE,,,,TRUE,,TRUE,,,,,,,,TRUE,,,,12
 Winged Warrior,https://2e.aonprd.com/Archetypes.aspx?ID=227,,TRUE,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,TRUE,,,,,,,,TRUE,,,TRUE,,,2

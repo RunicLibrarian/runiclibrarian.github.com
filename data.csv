@@ -131,7 +131,7 @@ Mortal Herald,https://2e.aonprd.com/Archetypes.aspx?ID=305,,FALSE,FALSE,TRUE,,,,
 Mummy,https://2e.aonprd.com/Archetypes.aspx?ID=180,,FALSE,FALSE,TRUE,,,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,,,,TRUE,TRUE,,2
 Nantambu Chime-Ringer,https://2e.aonprd.com/Archetypes.aspx?ID=106,,FALSE,TRUE,,,,,,TRUE,TRUE,TRUE,,,TRUE,,,,,,,,,,TRUE,,,,,,,TRUE,,,,,,,TRUE,,,,,,,,,,2
 Necrologist,https://2e.aonprd.com/Archetypes.aspx?ID=330,,FALSE,FALSE,TRUE,,,,TRUE,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6
-Necromancer,https://2e.aonprd.com/Archetypes.aspx?ID=387,,TRUE,,,,,,,TRUE,,TRUE,,,,,,,,,TRUE,,,,,TRUE,TRUE,,TRUE,TRUE,,TRUE,TRUE,,TRUE,,,,,,,,TRUE,,,,,,2
+Necromancer,https://2e.aonprd.com/Archetypes.aspx?ID=387,healing requires taking widespread fascination feat and additionally requires a damagable target such as a familiar with focused rejuvenation,TRUE,,,,,,,TRUE,,TRUE,,,,,,,,,TRUE,,TRUE,https://2e.aonprd.com/Spells.aspx?ID=2900,,TRUE,TRUE,,TRUE,TRUE,,TRUE,TRUE,,TRUE,,,,,,,,TRUE,,,,,,2
 Nidalese Horselord,https://2e.aonprd.com/Archetypes.aspx?ID=381,,FALSE,TRUE,,TRUE,,,,,,TRUE,,,,,,,,,,,,,,,TRUE,,,,,,,,TRUE,,TRUE,,,,,,,,,TRUE,,,2
 Oatia Skysage,https://2e.aonprd.com/Archetypes.aspx?ID=335,,FALSE,TRUE,,,,,,TRUE,,,,,,,,,,,TRUE,,,,,,,,,,,TRUE,,,TRUE,,TRUE,,,,,,,TRUE,,,,,2
 Oozemorph,https://2e.aonprd.com/Archetypes.aspx?ID=84,,FALSE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE,TRUE,TRUE,,,,,,,,,,2

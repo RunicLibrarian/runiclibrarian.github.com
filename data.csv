@@ -21,7 +21,7 @@ Bastion,https://2e.aonprd.com/Archetypes.aspx?ID=240,,TRUE,,,,,,,,,,,,,,,,,,,,,,
 Beast Gunner,https://2e.aonprd.com/Archetypes.aspx?ID=116,,FALSE,TRUE,,,TRUE,,,TRUE,TRUE,,,,TRUE,,,,,,,,,,,TRUE,TRUE,,,,,,,TRUE,,,,,,,,,,TRUE,,,,,6
 Beast Lord,https://2e.aonprd.com/MythicDestinies.aspx?ID=290,,FALSE,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,TRUE,TRUE,,,TRUE,,,,TRUE,,,,,,,,,,TRUE,,,,12
 Beastmaster,https://2e.aonprd.com/Archetypes.aspx?ID=241,Heals its animal companion,TRUE,,,,,,TRUE,,,TRUE,,,,,,,,,TRUE,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=1902,,,,TRUE,,,,,,TRUE,,,,,,,,,,,,,,,2
-Bellflower Tiller,https://2e.aonprd.com/Archetypes.aspx?ID=23,,FALSE,TRUE,,,,,,,,,,,,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6
+Bellflower Tiller,https://2e.aonprd.com/Archetypes.aspx?ID=400,,FALSE,TRUE,,,,,,,,,,,,,,,TRUE,TRUE,,,,,,,TRUE,,,,,,,,TRUE,,,TRUE,,,,,,,,,,,2
 Blackjacket,https://2e.aonprd.com/Archetypes.aspx?ID=316,,FALSE,TRUE,,,,,,,TRUE,,,,,,,,TRUE,,,,,,,,TRUE,,,,,,,,TRUE,TRUE,,,TRUE,,,,,,,,,,2
 Blessed One,https://2e.aonprd.com/Archetypes.aspx?ID=242,Good condition removal on a focus heal via mercy,TRUE,,,,,,,,TRUE,,,,,,,TRUE,,,TRUE,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=6277,,,,,,,,,,,TRUE,,,,,,,,TRUE,,,,,,2
 Bounty Hunter,https://2e.aonprd.com/Archetypes.aspx?ID=243,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,,,,,,,2
@@ -90,7 +90,8 @@ Gunslinger,https://2e.aonprd.com/Archetypes.aspx?ID=114,,FALSE,TRUE,,,TRUE,,,,,,
 Halcyon Speaker,https://2e.aonprd.com/Archetypes.aspx?ID=30,,FALSE,TRUE,,,,,TRUE,TRUE,TRUE,,,,TRUE,,,TRUE,,TRUE,,,,,TRUE,TRUE,,,,,,,TRUE,TRUE,,,,,,,,,TRUE,TRUE,,,,,6
 Hallowed Necromancer,https://2e.aonprd.com/Archetypes.aspx?ID=172,,FALSE,TRUE,,,,,TRUE,TRUE,TRUE,,,,TRUE,,,TRUE,,,TRUE,,,,,,,,,,,TRUE,,TRUE,,,TRUE,,,,,,,,,,,,2
 Harrower,https://2e.aonprd.com/Archetypes.aspx?ID=204,,FALSE,TRUE,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,TRUE,,,,,,2
-Hedge Mage,https://2e.aonprd.com/Archetypes.aspx?ID=391,unique archetype spellcasting,TRUE,,,,,,TRUE,TRUE,,,,,TRUE,,,TRUE,,,,,,,,TRUE,,,,,,TRUE,,TRUE,,,,TRUE,TRUE,,TRUE,,TRUE,,,,,,2
+Hedge Mage,https://2e.aonprd.com/Archetypes.aspx?ID=391,Unique archetype spellcasting,TRUE,,,,,,TRUE,TRUE,,,,,TRUE,,,TRUE,,,,,,,,TRUE,,,,,,TRUE,,TRUE,,,,TRUE,TRUE,,TRUE,,TRUE,,,,,,2
+Hellbound Aspirant,https://2e.aonprd.com/Archetypes.aspx?ID=397,Really likes the doomed condition,,,TRUE,TRUE,TRUE,,,,TRUE,TRUE,,,,,,TRUE,,,TRUE,,,,TRUE,,,,,,,,,,,,TRUE,,,,,,TRUE,,,TRUE,,,2
 Hellbreaker,https://2e.aonprd.com/Archetypes.aspx?ID=353,,FALSE,TRUE,,TRUE,TRUE,,,TRUE,,TRUE,,,,,,TRUE,,TRUE,,,,,TRUE,,TRUE,,,,,,,,TRUE,,TRUE,TRUE,,,,,,,TRUE,,,,2
 Hellknight,https://2e.aonprd.com/Archetypes.aspx?ID=25,,FALSE,TRUE,,TRUE,,,,,TRUE,,,,,TRUE,,,,TRUE,TRUE,,,,,,TRUE,,,,,,,,,,TRUE,TRUE,TRUE,,,,TRUE,,,TRUE,,TRUE,2
 Hellknight Armiger,https://2e.aonprd.com/Archetypes.aspx?ID=20,,FALSE,TRUE,,,,,,,,,,,,,,TRUE,,TRUE,TRUE,,,,TRUE,,TRUE,,,,,,,,,,TRUE,,,,,,,,,,,,2
@@ -98,6 +99,7 @@ Hellknight Signifer,https://2e.aonprd.com/Archetypes.aspx?ID=26,,FALSE,TRUE,,,,,
 Herbalist,https://2e.aonprd.com/Archetypes.aspx?ID=252,,TRUE,,,,,,TRUE,,,,TRUE,,,,,,,,,TRUE,,,,,,,,,,,,,,,,TRUE,TRUE,,,,,,,,,,2
 Heroic Scion,https://2e.aonprd.com/MythicDestinies.aspx?ID=339,,FALSE,FALSE,TRUE,,,,,,,,,,,,,,TRUE,,,,,,,,,,,,TRUE,,,,TRUE,,TRUE,,,,,,TRUE,,,,,,12
 Horizon Walker,https://2e.aonprd.com/Archetypes.aspx?ID=63,,TRUE,,,,,,,,,,,,,,,,TRUE,,,,,,,,,,,,,,,,,,TRUE,TRUE,,,,,,,,,,,2
+Infernal Pactbreaker,https://2e.aonprd.com/Archetypes.aspx?ID=398,Can use its book as a finesse sword,,TRUE,,,,,,TRUE,,TRUE,,,,,,TRUE,,,TRUE,,,,TRUE,TRUE,,,TRUE,,,,,,TRUE,,,,,,,,,,,,,,2
 Inventor,https://2e.aonprd.com/Archetypes.aspx?ID=108,,FALSE,TRUE,,,,,,TRUE,,,,,,,,,,,,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=3054,,,TRUE,TRUE,,TRUE,,,,,TRUE,,,,,TRUE,,,,,,,,,2
 Investigator,https://2e.aonprd.com/Archetypes.aspx?ID=231,,TRUE,,,,,,,TRUE,,,,TRUE,,,,,TRUE,,,,,,,,,,,TRUE,,,,,TRUE,,,,,,,,,,,,,,2
 Iridian Choirmaster,https://2e.aonprd.com/Archetypes.aspx?ID=328,,FALSE,TRUE,,,,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,,,,,,,2
@@ -125,6 +127,7 @@ Marshal,https://2e.aonprd.com/Archetypes.aspx?ID=254,,TRUE,,,,,,,,TRUE,TRUE,,,,,
 Martial Artist,https://2e.aonprd.com/Archetypes.aspx?ID=255,,TRUE,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,TRUE,,TRUE,,,,,,,,TRUE,TRUE,,,2
 Mauler,https://2e.aonprd.com/Archetypes.aspx?ID=256,,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,TRUE,,,,,,,,TRUE,,,,,,,,,,,,,TRUE,2
 Medic,https://2e.aonprd.com/Archetypes.aspx?ID=257,,TRUE,,,,,,TRUE,,,TRUE,,,,,,,,,,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=5137,,,,,,,,,,,,,,TRUE,TRUE,,TRUE,,,,,,,,2
+Midnight Illusionist,https://2e.aonprd.com/Archetypes.aspx?ID=399,Offers a level 6 skill feat so is a quick exit at that level or higher,,TRUE,,,,,TRUE,TRUE,TRUE,,,,TRUE,,,TRUE,,,TRUE,,,,,,,,,,,TRUE,,TRUE,,,,,,,,,TRUE,,,,,,2
 Mind Smith,https://2e.aonprd.com/Archetypes.aspx?ID=351,,TRUE,,TRUE,,,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE,,,TRUE,,,,,,,,2
 Monk,https://2e.aonprd.com/Archetypes.aspx?ID=232,Self healing only,TRUE,,,TRUE,TRUE,,TRUE,,,,,,,,,TRUE,,,TRUE,,TRUE,https://2e.aonprd.com/Feats.aspx?ID=5995,,,TRUE,,,TRUE,,TRUE,,,TRUE,,,,,,,,,,TRUE,TRUE,,TRUE,2
 Mortal Herald,https://2e.aonprd.com/Archetypes.aspx?ID=305,,FALSE,FALSE,TRUE,,,,TRUE,,,TRUE,,,,,,TRUE,,,TRUE,,,,TRUE,,,,,,TRUE,,,,TRUE,,TRUE,,,,TRUE,,,,TRUE,,,,12
@@ -197,7 +200,7 @@ Student of Perfection,https://2e.aonprd.com/Archetypes.aspx?ID=18,,FALSE,TRUE,,,
 Summoner,https://2e.aonprd.com/Archetypes.aspx?ID=389,,TRUE,,,,,,,,TRUE,TRUE,,,TRUE,,,TRUE,,,,,,,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,,,,,,,,TRUE,TRUE,,TRUE,,,2
 Swarmkeeper,https://2e.aonprd.com/Archetypes.aspx?ID=223,,FALSE,TRUE,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
 Swashbuckler,https://2e.aonprd.com/Archetypes.aspx?ID=235,,TRUE,,,,TRUE,,,,TRUE,,,,,,,,,,,,,,,,TRUE,,,TRUE,,,,,TRUE,TRUE,,,,,,,,,,,,,2
-Swordmaster,https://2e.aonprd.com/Archetypes.aspx?ID=33,,FALSE,TRUE,,TRUE,TRUE,,,,,,,,,,,,TRUE,TRUE,,,,,,,TRUE,,,,,,,,TRUE,,,,,TRUE,TRUE,,,,,,,TRUE,6
+Swordmaster,https://2e.aonprd.com/Archetypes.aspx?ID=33,offers a class feat to make your expert acrobatics and athletics become master but not legendary,FALSE,TRUE,,TRUE,TRUE,,,,,,,,,,,,TRUE,TRUE,,,,,,,TRUE,,,,,,,,TRUE,,,,,TRUE,TRUE,,,,,,,TRUE,6
 Talisman Dabbler,https://2e.aonprd.com/Archetypes.aspx?ID=266,,TRUE,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,,,,,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,2
 Tattooed Historian,https://2e.aonprd.com/Archetypes.aspx?ID=313,,FALSE,TRUE,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,TRUE,,,,,,,,TRUE,,,,,,,,,,,,,,2
 Thaumaturge,https://2e.aonprd.com/Archetypes.aspx?ID=343,,TRUE,,,TRUE,TRUE,,,,TRUE,TRUE,,,,,,,TRUE,,,,TRUE,https://2e.aonprd.com/Implements.aspx?ID=19,,,,,,TRUE,,,,,TRUE,,TRUE,,,,,,,,,,,,2
